@@ -1,16 +1,15 @@
-//
-//  ContentView.swift
-//  WeSplit
-//
-//  Created by Fabrício Soares on 23/04/20.
-//  Copyright © 2020 Fabrício Soares. All rights reserved.
-//
 
 import SwiftUI
 
 struct ContentView: View {
+    @State var spin = false
+
     var body: some View {
-        Text("Hello, World!")
+        TabView {
+            HomeView()
+
+//            MovieViewController(id: 157336)
+        }
     }
 }
 

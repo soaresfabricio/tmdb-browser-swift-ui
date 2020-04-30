@@ -3,20 +3,40 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7F00A48F2458AC7B00E08D59 /* SearchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F00A48E2458AC7B00E08D59 /* SearchViewModel.swift */; };
+		7F0F850E2455DB7400E30005 /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 7F0F850D2455DB7400E30005 /* SDWebImageSwiftUI */; };
+		7F0F85112455F41100E30005 /* SearchBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F0F85102455F41100E30005 /* SearchBarView.swift */; };
 		7F1DEE2E2451F2FB00CABB98 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F1DEE2D2451F2FB00CABB98 /* AppDelegate.swift */; };
 		7F1DEE302451F2FB00CABB98 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F1DEE2F2451F2FB00CABB98 /* SceneDelegate.swift */; };
 		7F1DEE322451F2FB00CABB98 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F1DEE312451F2FB00CABB98 /* ContentView.swift */; };
 		7F1DEE342451F2FC00CABB98 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F1DEE332451F2FC00CABB98 /* Assets.xcassets */; };
 		7F1DEE372451F2FC00CABB98 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F1DEE362451F2FC00CABB98 /* Preview Assets.xcassets */; };
 		7F1DEE3A2451F2FC00CABB98 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F1DEE382451F2FC00CABB98 /* LaunchScreen.storyboard */; };
+		7F328B43245B68410057495E /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F328B42245B68410057495E /* Default-568h@2x.png */; };
+		7F328B45245B697A0057495E /* keys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F328B44245B697A0057495E /* keys.swift */; };
+		7F51DC002454FC46006F7920 /* BackdropCarrouselView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F51DBFF2454FC46006F7920 /* BackdropCarrouselView.swift */; };
+		7F563AF42459FBBC000BE635 /* MovieViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F563AF32459FBBC000BE635 /* MovieViewModel.swift */; };
+		7F8F696E245610110073E535 /* Genre.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F8F696D245610110073E535 /* Genre.swift */; };
+		7F8F6970245610270073E535 /* ProductionCompany.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F8F696F245610270073E535 /* ProductionCompany.swift */; };
+		7F8F6972245610560073E535 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F8F6971245610560073E535 /* Movie.swift */; };
+		7F8F69752456110E0073E535 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F8F69742456110E0073E535 /* HomeViewModel.swift */; };
+		7F8F6977245611AD0073E535 /* BackdropCarrouselViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F8F6976245611AD0073E535 /* BackdropCarrouselViewModel.swift */; };
+		7F8F6979245611E10073E535 /* BackdropCarrousel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F8F6978245611E10073E535 /* BackdropCarrousel.swift */; };
+		7F8F697B24561CB20073E535 /* BackdropCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F8F697A24561CB20073E535 /* BackdropCardView.swift */; };
+		7F903BBE2454A05C00997AC9 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F903BBD2454A05C00997AC9 /* LoadingView.swift */; };
+		7FD408162453A8820008981A /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FD408152453A8820008981A /* HomeView.swift */; };
+		7FF74E3D24538F880038E54F /* Backdrop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FF74E3C24538F880038E54F /* Backdrop.swift */; };
+		7FF74E3F245394990038E54F /* MovieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FF74E3E245394990038E54F /* MovieViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		7F1DEE2A2451F2FB00CABB98 /* WeSplit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeSplit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F00A48E2458AC7B00E08D59 /* SearchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewModel.swift; sourceTree = "<group>"; };
+		7F0F85102455F41100E30005 /* SearchBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBarView.swift; sourceTree = "<group>"; };
+		7F1DEE2A2451F2FB00CABB98 /* TMDBBrowser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TMDBBrowser.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F1DEE2D2451F2FB00CABB98 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7F1DEE2F2451F2FB00CABB98 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		7F1DEE312451F2FB00CABB98 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -24,6 +44,21 @@
 		7F1DEE362451F2FC00CABB98 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		7F1DEE392451F2FC00CABB98 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7F1DEE3B2451F2FC00CABB98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7F328B42245B68410057495E /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		7F328B44245B697A0057495E /* keys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = keys.swift; path = TMDBBrowser/Utils/keys.swift; sourceTree = SOURCE_ROOT; };
+		7F51DBFF2454FC46006F7920 /* BackdropCarrouselView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackdropCarrouselView.swift; sourceTree = "<group>"; };
+		7F563AF32459FBBC000BE635 /* MovieViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieViewModel.swift; sourceTree = "<group>"; };
+		7F8F696D245610110073E535 /* Genre.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Genre.swift; sourceTree = "<group>"; };
+		7F8F696F245610270073E535 /* ProductionCompany.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductionCompany.swift; sourceTree = "<group>"; };
+		7F8F6971245610560073E535 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		7F8F69742456110E0073E535 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		7F8F6976245611AD0073E535 /* BackdropCarrouselViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackdropCarrouselViewModel.swift; sourceTree = "<group>"; };
+		7F8F6978245611E10073E535 /* BackdropCarrousel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackdropCarrousel.swift; sourceTree = "<group>"; };
+		7F8F697A24561CB20073E535 /* BackdropCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackdropCardView.swift; sourceTree = "<group>"; };
+		7F903BBD2454A05C00997AC9 /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		7FD408152453A8820008981A /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		7FF74E3C24538F880038E54F /* Backdrop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Backdrop.swift; sourceTree = "<group>"; };
+		7FF74E3E245394990038E54F /* MovieViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,16 +66,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7F0F850E2455DB7400E30005 /* SDWebImageSwiftUI in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7F0F850F2455DD1800E30005 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				7F8F696D245610110073E535 /* Genre.swift */,
+				7F8F696F245610270073E535 /* ProductionCompany.swift */,
+				7F8F6971245610560073E535 /* Movie.swift */,
+				7F8F6978245611E10073E535 /* BackdropCarrousel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		7F1DEE212451F2FA00CABB98 = {
 			isa = PBXGroup;
 			children = (
-				7F1DEE2C2451F2FB00CABB98 /* WeSplit */,
+				7F328B42245B68410057495E /* Default-568h@2x.png */,
+				7F1DEE2C2451F2FB00CABB98 /* TMDBBrowser */,
 				7F1DEE2B2451F2FB00CABB98 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -48,23 +96,26 @@
 		7F1DEE2B2451F2FB00CABB98 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				7F1DEE2A2451F2FB00CABB98 /* WeSplit.app */,
+				7F1DEE2A2451F2FB00CABB98 /* TMDBBrowser.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		7F1DEE2C2451F2FB00CABB98 /* WeSplit */ = {
+		7F1DEE2C2451F2FB00CABB98 /* TMDBBrowser */ = {
 			isa = PBXGroup;
 			children = (
 				7F1DEE2D2451F2FB00CABB98 /* AppDelegate.swift */,
 				7F1DEE2F2451F2FB00CABB98 /* SceneDelegate.swift */,
-				7F1DEE312451F2FB00CABB98 /* ContentView.swift */,
+				7F51DC01245534A7006F7920 /* Utils */,
+				7FDC9DA82454EA8300170F9C /* Views */,
+				7F8F6973245610B60073E535 /* ViewModels */,
+				7F0F850F2455DD1800E30005 /* Models */,
 				7F1DEE332451F2FC00CABB98 /* Assets.xcassets */,
 				7F1DEE382451F2FC00CABB98 /* LaunchScreen.storyboard */,
 				7F1DEE3B2451F2FC00CABB98 /* Info.plist */,
 				7F1DEE352451F2FC00CABB98 /* Preview Content */,
 			);
-			path = WeSplit;
+			path = TMDBBrowser;
 			sourceTree = "<group>";
 		};
 		7F1DEE352451F2FC00CABB98 /* Preview Content */ = {
@@ -75,12 +126,46 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		7F51DC01245534A7006F7920 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				7FF74E3C24538F880038E54F /* Backdrop.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		7F8F6973245610B60073E535 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				7F8F69742456110E0073E535 /* HomeViewModel.swift */,
+				7F8F6976245611AD0073E535 /* BackdropCarrouselViewModel.swift */,
+				7F00A48E2458AC7B00E08D59 /* SearchViewModel.swift */,
+				7F563AF32459FBBC000BE635 /* MovieViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		7FDC9DA82454EA8300170F9C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				7F1DEE312451F2FB00CABB98 /* ContentView.swift */,
+				7F0F85102455F41100E30005 /* SearchBarView.swift */,
+				7FF74E3E245394990038E54F /* MovieViewController.swift */,
+				7F51DBFF2454FC46006F7920 /* BackdropCarrouselView.swift */,
+				7F328B44245B697A0057495E /* keys.swift */,
+				7FD408152453A8820008981A /* HomeView.swift */,
+				7F8F697A24561CB20073E535 /* BackdropCardView.swift */,
+				7F903BBD2454A05C00997AC9 /* LoadingView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		7F1DEE292451F2FA00CABB98 /* WeSplit */ = {
+		7F1DEE292451F2FA00CABB98 /* TMDBBrowser */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7F1DEE3E2451F2FC00CABB98 /* Build configuration list for PBXNativeTarget "WeSplit" */;
+			buildConfigurationList = 7F1DEE3E2451F2FC00CABB98 /* Build configuration list for PBXNativeTarget "TMDBBrowser" */;
 			buildPhases = (
 				7F1DEE262451F2FA00CABB98 /* Sources */,
 				7F1DEE272451F2FA00CABB98 /* Frameworks */,
@@ -90,9 +175,12 @@
 			);
 			dependencies = (
 			);
-			name = WeSplit;
+			name = TMDBBrowser;
+			packageProductDependencies = (
+				7F0F850D2455DB7400E30005 /* SDWebImageSwiftUI */,
+			);
 			productName = WeSplit;
-			productReference = 7F1DEE2A2451F2FB00CABB98 /* WeSplit.app */;
+			productReference = 7F1DEE2A2451F2FB00CABB98 /* TMDBBrowser.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -110,7 +198,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 7F1DEE252451F2FA00CABB98 /* Build configuration list for PBXProject "WeSplit" */;
+			buildConfigurationList = 7F1DEE252451F2FA00CABB98 /* Build configuration list for PBXProject "TMDBBrowser" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -119,11 +207,14 @@
 				Base,
 			);
 			mainGroup = 7F1DEE212451F2FA00CABB98;
+			packageReferences = (
+				7F0F850C2455DB7400E30005 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
+			);
 			productRefGroup = 7F1DEE2B2451F2FB00CABB98 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				7F1DEE292451F2FA00CABB98 /* WeSplit */,
+				7F1DEE292451F2FA00CABB98 /* TMDBBrowser */,
 			);
 		};
 /* End PBXProject section */
@@ -134,6 +225,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7F1DEE3A2451F2FC00CABB98 /* LaunchScreen.storyboard in Resources */,
+				7F328B43245B68410057495E /* Default-568h@2x.png in Resources */,
 				7F1DEE372451F2FC00CABB98 /* Preview Assets.xcassets in Resources */,
 				7F1DEE342451F2FC00CABB98 /* Assets.xcassets in Resources */,
 			);
@@ -147,8 +239,24 @@
 			buildActionMask = 2147483647;
 			files = (
 				7F1DEE2E2451F2FB00CABB98 /* AppDelegate.swift in Sources */,
+				7FF74E3D24538F880038E54F /* Backdrop.swift in Sources */,
+				7F51DC002454FC46006F7920 /* BackdropCarrouselView.swift in Sources */,
 				7F1DEE302451F2FB00CABB98 /* SceneDelegate.swift in Sources */,
+				7F8F6977245611AD0073E535 /* BackdropCarrouselViewModel.swift in Sources */,
+				7F563AF42459FBBC000BE635 /* MovieViewModel.swift in Sources */,
+				7F8F6972245610560073E535 /* Movie.swift in Sources */,
 				7F1DEE322451F2FB00CABB98 /* ContentView.swift in Sources */,
+				7FF74E3F245394990038E54F /* MovieViewController.swift in Sources */,
+				7F328B45245B697A0057495E /* keys.swift in Sources */,
+				7F0F85112455F41100E30005 /* SearchBarView.swift in Sources */,
+				7F8F69752456110E0073E535 /* HomeViewModel.swift in Sources */,
+				7F903BBE2454A05C00997AC9 /* LoadingView.swift in Sources */,
+				7F8F6979245611E10073E535 /* BackdropCarrousel.swift in Sources */,
+				7F8F697B24561CB20073E535 /* BackdropCardView.swift in Sources */,
+				7FD408162453A8820008981A /* HomeView.swift in Sources */,
+				7F00A48F2458AC7B00E08D59 /* SearchViewModel.swift in Sources */,
+				7F8F6970245610270073E535 /* ProductionCompany.swift in Sources */,
+				7F8F696E245610110073E535 /* Genre.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,14 +393,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"WeSplit/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"TMDBBrowser/Preview Content\"";
+				DEVELOPMENT_TEAM = 8WY3T9R4M6;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = WeSplit/Info.plist;
+				INFOPLIST_FILE = TMDBBrowser/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.fabricio.WeSplit;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fabricio.TMDBBrowser;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -304,14 +413,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"WeSplit/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"TMDBBrowser/Preview Content\"";
+				DEVELOPMENT_TEAM = 8WY3T9R4M6;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = WeSplit/Info.plist;
+				INFOPLIST_FILE = TMDBBrowser/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.fabricio.WeSplit;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fabricio.TMDBBrowser;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -321,7 +431,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		7F1DEE252451F2FA00CABB98 /* Build configuration list for PBXProject "WeSplit" */ = {
+		7F1DEE252451F2FA00CABB98 /* Build configuration list for PBXProject "TMDBBrowser" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7F1DEE3C2451F2FC00CABB98 /* Debug */,
@@ -330,7 +440,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7F1DEE3E2451F2FC00CABB98 /* Build configuration list for PBXNativeTarget "WeSplit" */ = {
+		7F1DEE3E2451F2FC00CABB98 /* Build configuration list for PBXNativeTarget "TMDBBrowser" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7F1DEE3F2451F2FC00CABB98 /* Debug */,
@@ -340,6 +450,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		7F0F850C2455DB7400E30005 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImageSwiftUI.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.3.3;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		7F0F850D2455DB7400E30005 /* SDWebImageSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7F0F850C2455DB7400E30005 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
+			productName = SDWebImageSwiftUI;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 7F1DEE222451F2FA00CABB98 /* Project object */;
 }
